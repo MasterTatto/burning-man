@@ -239,9 +239,7 @@ section {
 	margin: 0;
 	transition: all 0.5s ease;
 }
-.ham {
-	display: none;
-}
+
 .header .show-menu li {
 	margin-top: 40px;
 	margin-left: -40px;
@@ -249,7 +247,8 @@ section {
 .header .show-menu li:first-child {
 	margin-top: 0;
 }
-.ham {
+
+.header .ham {
 	display: none;
 }
 @media screen and (max-width: 1200px) {
@@ -320,6 +319,9 @@ section {
 	.header_left {
 		display: flex;
 		align-items: center;
+	}
+	.header .ham {
+		display: block;
 	}
 }
 @media screen and (max-width: 575px) {
