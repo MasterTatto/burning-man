@@ -249,6 +249,9 @@ section {
 .header .show-menu li:first-child {
 	margin-top: 0;
 }
+.ham {
+	display: none;
+}
 @media screen and (max-width: 1200px) {
 	.wrap {
 		max-width: 1140px;
